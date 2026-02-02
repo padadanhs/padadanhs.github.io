@@ -231,7 +231,7 @@ window.PNHS = (() => {
   function card(p){
     return `<article class="card">
       <img src="${p.cover||'images/post-placeholder.jpg'}" alt="">
-      <h3><a href="article.html?id=${encodeURIComponent(p.id)}">${escHtml(p.title)}</a></h3>
+      <h3><a href="/article.html?id=${encodeURIComponent(p.id)}">${escHtml(p.title)}</a></h3>
       <p class="muted">${escHtml(p.section)} • ${escHtml(p.date)}</p>
       <p>${escHtml(p.teaser||'')}</p>
     </article>`;
