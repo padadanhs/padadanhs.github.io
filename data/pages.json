@@ -1,0 +1,52 @@
+[
+  {
+    "url": "index.html",
+    "title": "Padada National High School",
+    "headings": ["Latest from PNHS", "Upcoming Events", "Admissions", "SHS Strands & Special Programs", "Announcements"]
+  },
+  {
+    "url": "history.html",
+    "title": "History",
+    "headings": ["Origins", "CCNTS Era", "Transition to DepEd", "Present Site", "Independence under RA 9540", "Extension Classes", "Programs (SPED, SPA)", "Senior High School Tracks"]
+  },
+  {
+    "url": "org.html",
+    "title": "Organizational Chart",
+    "headings": ["School Administration", "Structure", "Department Heads"]
+  },
+  {
+    "url": "prog.html",
+    "title": "Programs & Accomplishments",
+    "headings": ["Senior High School Strands", "Special Programs", "Accomplishments"]
+  },
+  {
+    "url": "ssg.html",
+    "title": "Supreme Student Government",
+    "headings": ["Duties and Responsibilities", "Officers (S.Y. 2021–2022)", "National Gardening Day (2020)"]
+  },
+  {
+    "url": "schoolmemo.html",
+    "title": "School Memos",
+    "headings": ["Official Memoranda", "Announcements"]
+  },
+  {
+    "url": "reports.html",
+    "title": "Reports & Calendar",
+    "headings": ["Downloads", "School Calendar"]
+  },
+  {
+    "url": "transparencyboard.html",
+    "title": "Transparency Board",
+    "headings": ["Annual Procurement Plan", "Financial Statements"]
+  },
+  {
+    "url": "gallery.html",
+    "title": "Gallery",
+    "headings": ["Campus Life", "Events"]
+  },
+  {
+    "url": "location.html",
+    "title": "Contact Information",
+    "headings": ["Address", "Map"]
+  }
+]

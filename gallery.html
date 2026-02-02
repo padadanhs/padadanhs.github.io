@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery · PNHS</title>
+  <meta name="description" content="PNHS photo gallery" />
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="assets/theme.css" />
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="PNHS home">
+        <img src="images/logo.png" alt="PNHS Logo" class="brand__logo" />
+        <div class="brand__text">
+          <span class="brand__title">Padada National High School</span>
+          <span class="brand__subtitle">Schools Division Office – Davao del Sur</span>
+        </div>
+      </a>
+
+      <!-- Mobile burger -->
+      <button class="nav__toggle" aria-expanded="false" aria-controls="navmenu" aria-label="Toggle navigation">☰</button>
+
+      <nav id="navmenu" class="nav__menu" aria-label="Primary">
+        <ul class="nav__row">
+          <li><a href="index.html">Home</a></li>
+
+          <li class="nav__dropdown">
+            <button class="nav__link" aria-haspopup="true" aria-expanded="false">About Us</button>
+            <div class="nav__panel" role="menu">
+              <a href="history.html" role="menuitem">History</a>
+              <a href="org.html" role="menuitem">Organizational Chart</a>
+              <a href="prog.html" role="menuitem">Programs &amp; Accomplishments</a>
+              <a href="ssg.html" role="menuitem">Learner Government</a>
+              <a href="location.html">Contact Us</a>
+            </div>
+          </li>
+
+          <li class="nav__dropdown">
+            <button class="nav__link" aria-haspopup="true" aria-expanded="false">Admission</button>
+            <div class="nav__panel" role="menu">
+              <a href="prog.html#shs" role="menuitem">SHS Strands</a>
+              <a href="reports.html#admissions" role="menuitem">Enrollment Guide</a>
+            </div>
+          </li>
+
+          <li class="nav__dropdown">
+            <button class="nav__link" aria-haspopup="true" aria-expanded="false">News</button>
+            <div class="nav__panel" role="menu">
+              <a href="blog.html" role="menuitem" aria-current="page">School Paper</a>
+              <a href="blog.html" role="menuitem">Latest Articles</a>
+              <a href="schoolmemo.html" role="menuitem">Announcements (Memos)</a>
+            </div>
+          </li>
+
+          <li class="nav__dropdown">
+            <button class="nav__link" aria-haspopup="true" aria-expanded="false">Resources</button>
+            <div class="nav__panel" role="menu">
+              <a href="gallery.html" role="menuitem">Gallery</a>
+            </div>
+          </li>
+
+          <li class="nav__dropdown">
+            <button class="nav__link" aria-haspopup="true" aria-expanded="false">Good Governance</button>
+            <div class="nav__panel" role="menu">
+              <a href="schoolmemo.html" role="menuitem">School Memos</a>
+              <a href="reports.html" role="menuitem">Reports</a>
+              <a href="transparencyboard.html" role="menuitem">Transparency Board</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main id="main" class="wrap">
+    <header class="subheader"><h1>Gallery</h1><p>Campus life and events</p></header>
+
+    <div class="gallery__grid">
+      <img src="images/gallery/1.jpg" alt="Event photo 1" />
+      <img src="images/gallery/2.jpg" alt="Event photo 2" />
+      <img src="images/gallery/3.jpg" alt="Event photo 3" />
+      <img src="images/gallery/4.jpg" alt="Event photo 4" />
+      <img src="images/gallery/5.jpg" alt="Event photo 5" />
+      <img src="images/gallery/6.jpg" alt="Event photo 6" />
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h4>Padada National High School</h4>
+        <p>
+          Northern Paligue, Padada, Davao del Sur, Philippines<br/>
+          Email: <a href="mailto:padadanhs@deped.gov.ph">padadanhs@deped.gov.ph</a>
+        </p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="transparencyboard.html">Transparency Board</a></li>
+          <li><a href="reports.html">Downloads &amp; Calendar</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="location.html">Contact &amp; Map</a></li>
+          <li><a href="about-us.html">Meet the Team</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/padadanhs/" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-note">© <span id="year"></span> Padada National High School. All rights reserved.</div>
+  </footer>
+</body>
+</html>

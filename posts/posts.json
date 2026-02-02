@@ -1,0 +1,35 @@
+<!-- =============================================================
+FILEPATH: /posts/posts.json
+============================================================== -->
+[
+{
+"id":"welcome-pnhs",
+"title":"Welcome to the Official PNHS Website",
+"section":"News",
+"author":"Campus Journalism Team",
+"date":"2025-09-29",
+"cover":"images/posts/welcome.jpg",
+"teaser":"A new home for announcements, programs, and the PNHS school paper.",
+"body":"<p>Padada National High School proudly launches its official website hosted on GitHub Pages. Here you can read the latest announcements, access issuances, and explore student journalism from our School Paper.</p>"
+},
+{
+"id":"teachers-month",
+"title":"Teachers' Month Celebration Highlights",
+"section":"Features",
+"author":"PNHS Press",
+"date":"2025-09-20",
+"cover":"images/posts/teachers.jpg",
+"teaser":"A month of gratitude and performances honoring our educators.",
+"body":"<p>From singing contests to heartfelt messages, the PNHS community celebrated our teachers with style and sincerity.</p>"
+},
+{
+"id":"science-fair",
+"title":"Science & Technology Fair: Division Winners",
+"section":"Science & Tech",
+"author":"PNHS STEM",
+"date":"2025-09-15",
+"cover":"images/posts/scifair.jpg",
+"teaser":"Highlights from our award‑winning projects.",
+"body":"<p>Congratulations to the PNHS teams who advanced in the Division Science and Technology Fair. Read about their projects and results.</p>"
+}
+]

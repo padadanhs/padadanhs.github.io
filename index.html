@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Padada National High School</title>
+  <meta name="description" content="Schools Division Office - Davao del Sur" />
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="assets/theme.css" />
+  <script defer src="assets/site.js"></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="PNHS home">
+        <img src="images/logo.png" alt="PNHS Logo" class="brand__logo" />
+        <div class="brand__text">
+          <span class="brand__title">Padada National High School</span>
+          <span class="brand__subtitle">Schools Division Office – Davao del Sur</span>
+        </div>
+      </a>
+
+      <!-- Mobile burger -->
+      <button class="nav__toggle" aria-expanded="false" aria-controls="navmenu" aria-label="Toggle navigation">☰</button>
+
+      <nav id="navmenu" class="nav__menu" aria-label="Primary">
+        <ul class="nav__row">
+          <li><a href="index.html">Home</a></li>
+
+          <li class="nav__dropdown">
+            <button class="nav__link" aria-haspopup="true" aria-expanded="false">About Us</button>
+            <div class="nav__panel" role="menu">
+              <a href="history.html" role="menuitem">History</a>
+              <a href="org.html" role="menuitem">Organizational Chart</a>
+              <a href="prog.html" role="menuitem">Programs &amp; Accomplishments</a>
+              <a href="ssg.html" role="menuitem">Learner Government</a>
+              <a href="location.html">Contact Us</a>
+            </div>
+          </li>
+
+          <li class="nav__dropdown">
+            <button class="nav__link" aria-haspopup="true" aria-expanded="false">Admission</button>
+            <div class="nav__panel" role="menu">
+              <a href="prog.html#shs" role="menuitem">SHS Strands</a>
+              <a href="reports.html#admissions" role="menuitem">Enrollment Guide</a>
+            </div>
+          </li>
+
+          <li class="nav__dropdown">
+            <button class="nav__link" aria-haspopup="true" aria-expanded="false">News</button>
+            <div class="nav__panel" role="menu">
+              <a href="blog.html" role="menuitem" aria-current="page">School Paper</a>
+              <a href="blog.html" role="menuitem">Latest Articles</a>
+              <a href="schoolmemo.html" role="menuitem">Announcements (Memos)</a>
+            </div>
+          </li>
+
+          <li class="nav__dropdown">
+            <button class="nav__link" aria-haspopup="true" aria-expanded="false">Resources</button>
+            <div class="nav__panel" role="menu">
+              <a href="gallery.html" role="menuitem">Gallery</a>
+            </div>
+          </li>
+
+          <li class="nav__dropdown">
+            <button class="nav__link" aria-haspopup="true" aria-expanded="false">Good Governance</button>
+            <div class="nav__panel" role="menu">
+              <a href="schoolmemo.html" role="menuitem">School Memos</a>
+              <a href="reports.html" role="menuitem">Reports</a>
+              <a href="transparencyboard.html" role="menuitem">Transparency Board</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+
+  <!-- Hero with carousel -->
+  <section class="hero">
+    <div class="wrap">
+      <h1>Padada National High School</h1>
+      <p class="section-sub">Schools Division Office – Davao del Sur</p>
+
+      <div class="search">
+        <input id="site-search" type="search" placeholder="Search site, posts, and issuances…" aria-label="Search site" />
+        <button class="btn btn--primary" onclick="PNHS.search()">Search</button>
+      </div>
+
+      <!-- Slider -->
+      <div id="carousel" class="slider" aria-label="Campus highlights" aria-roledescription="carousel">
+        <div class="slider__track" id="slider-track">
+          <!-- slides will be injected from data/carousel.json -->
+        </div>
+        <button class="slider__btn slider__btn--prev" aria-label="Previous slide">‹</button>
+        <button class="slider__btn slider__btn--next" aria-label="Next slide">›</button>
+        <div class="slider__dots" id="slider-dots" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main" class="wrap">
+    <!-- Center image from your Rmd (19.png) -->
+    <figure class="center-img">
+      <img src="images/logo.png" alt="PNHS welcome banner" />
+    </figure>
+
+    <!-- Welcome copy (from your R Markdown) -->
+    <section class="card">
+      <div class="prose">
+        <p>
+          It is our pleasure to welcome you all to the official website of Padada National High School formerly
+          Hagonoy National High School - Annex. Experience its easy navigation feature to keep you updated with
+          the school’s projects and accomplishments as well as the people behind the success of our school.
+        </p>
+
+        <p>
+          This site has been prepared and developed to inspire <strong>YOU</strong>, our parents, students, and stakeholders
+          to use it as a valuable source of the school’s news and information.
+        </p>
+
+        <p>
+          We hope that everyone will become familiar with our school as an institution as well as its policies and procedures
+          that are necessary for its smooth operational management following our DepEd Mission and Vision Statements and its
+          Core Values as our students and clienteles say <strong>“KABATAANG PADADA: DISIPLINADO”</strong>.
+        </p>
+
+        <p>Godspeed and enjoy browsing our site!</p>
+
+        <p style="text-align:center;">
+          <span class="u-underline"><strong>MERCY FE M. MOPAL, Ed.D.</strong></span><br/>
+          Principal III
+        </p>
+
+      </div>
+    </section>
+
+    <!-- Quick sections -->
+    <section>
+      <div class="section-head">
+        <h2>Explore PNHS</h2>
+      </div>
+      <div class="grid grid--3">
+        <article class="card">
+          <h3>Programs &amp; Accomplishments</h3>
+          <p>SHS strands (GAS, TVL) &amp; SPA.</p>
+          <a class="btn btn--ghost" href="prog.html">View programs</a>
+        </article>
+        <article class="card">
+          <h3>Issuances</h3>
+          <p>School memos, reports, and transparency board.</p>
+          <a class="btn btn--ghost" href="schoolmemo.html">Open issuances</a>
+        </article>
+        <article class="card">
+          <h3>School Paper</h3>
+          <p>News, features, editorials, sports, and culture by PNHS campus journalists.</p>
+          <a class="btn btn--ghost" href="blog.html">Read articles</a>
+        </article>
+      </div>
+    </section>
+
+    <p class="backtotop"><a href="#top">Back to top</a></p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h4>Padada National High School</h4>
+        <p>
+          Northern Paligue, Padada, Davao del Sur, Philippines<br/>
+          Email: <a href="mailto:padadanhs@deped.gov.ph">padadanhs@deped.gov.ph</a>
+        </p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="transparencyboard.html">Transparency Board</a></li>
+          <li><a href="reports.html">Downloads &amp; Calendar</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="location.html">Contact &amp; Map</a></li>
+          <li><a href="about-us.html">Meet the Team</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/padadanhs/" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-note">© <span id="year"></span> Padada National High School. All rights reserved.</div>
+  </footer>
+</body>
+</html>

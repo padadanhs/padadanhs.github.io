@@ -1,0 +1,7 @@
+<!-- =============================================================
+FILEPATH: /data/memos.json
+============================================================== -->
+[
+{"title":"Class Suspension due to Weather Advisory","date":"2025-09-10","file":"docs/memo-2025-09-10.pdf","summary":"Per LGU advisory, afternoon classes are suspended. See memo for details."},
+{"title":"Quarterly Assessment Schedule","date":"2025-09-05","file":"docs/qa-schedule.pdf","summary":"Schedules and coverage for the quarterly assessments."}
+]
