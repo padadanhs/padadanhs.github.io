@@ -59,11 +59,11 @@ window.PNHS = (() => {
 
     const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    // NOTE: you said your images are in ROOT /carousel (not /images)
+    // Fallback images (absolute so it works from any folder route)
     const fallback = [
-      { src: 'carousel/1.jpg', alt: 'Padada NHS campus aerial view' },
-      { src: 'carousel/2.jpg', alt: 'Student activities and intramurals' },
-      { src: 'carousel/3.jpg', alt: 'Learning spaces and laboratories' }
+      { src: '/carousel/1.jpg', alt: 'Padada NHS campus aerial view' },
+      { src: '/carousel/2.jpg', alt: 'Student activities and intramurals' },
+      { src: '/carousel/3.jpg', alt: 'Learning spaces and laboratories' }
     ];
 
     let slides = [];
@@ -149,8 +149,8 @@ window.PNHS = (() => {
 
     (async () => {
       try{
-        // Your intended JSON location
-        const data = await pull('data/carousel.json');
+        // Absolute path so it works from /blog/ etc.
+        const data = await pull('/data/carousel.json');
         slides = Array.isArray(data) ? data : [];
       }catch(_e){
         slides = [];
@@ -227,20 +227,24 @@ window.PNHS = (() => {
     });
   }
 
-  // ---------- Homepage: latest posts ----------
+  // ---------- Post card ----------
   function card(p){
+    const cover = p.cover ? String(p.cover) : '/images/post-placeholder.jpg';
+    const link  = `/article/?id=${encodeURIComponent(p.id)}`;
+
     return `<article class="card">
-      <img src="${p.cover||'images/post-placeholder.jpg'}" alt="">
-      <h3><a href="/article.html?id=${encodeURIComponent(p.id)}">${escHtml(p.title)}</a></h3>
+      <img src="${escHtml(cover)}" alt="">
+      <h3><a href="${link}">${escHtml(p.title)}</a></h3>
       <p class="muted">${escHtml(p.section)} • ${escHtml(p.date)}</p>
       <p>${escHtml(p.teaser||'')}</p>
     </article>`;
   }
 
+  // ---------- Homepage: latest posts ----------
   async function mountLatest(){
     const host = q('#latest-posts'); if(!host) return;
     try{
-      const posts = await pull('posts/posts.json');
+      const posts = await pull('/posts/posts.json');
       host.innerHTML = posts.slice(0,6).map(card).join('');
     }catch(_e){
       host.innerHTML = '<p class="muted">No posts yet.</p>';
@@ -251,7 +255,7 @@ window.PNHS = (() => {
   let ALL_POSTS = [];
   async function mountBlog(){
     const list = q('#post-list'); if(!list) return;
-    ALL_POSTS = await pull('posts/posts.json');
+    ALL_POSTS = await pull('/posts/posts.json');
     renderPosts(ALL_POSTS);
   }
 
@@ -274,8 +278,9 @@ window.PNHS = (() => {
   // ---------- Single article ----------
   async function mountArticle(){
     const host = q('#article'); if(!host) return;
+
     const id = new URLSearchParams(location.search).get('id');
-    const posts = await pull('posts/posts.json');
+    const posts = await pull('/posts/posts.json');
     const p = posts.find(x => x.id===id) || posts[0];
 
     host.innerHTML = `
@@ -292,7 +297,8 @@ window.PNHS = (() => {
   // ---------- Memos ----------
   async function mountMemos(){
     const host = q('#memo-list'); if(!host) return;
-    const memos = await pull('data/memos.json');
+    const memos = await pull('/data/memos.json');
+
     host.innerHTML = memos.map(m => `
       <article class="card">
         <h3>${escHtml(m.title)}</h3>
@@ -315,7 +321,7 @@ window.PNHS = (() => {
     const cal  = q('#calendar-events');
     if(!home && !cal) return;
 
-    const ev = await pull('data/events.json');
+    const ev = await pull('/data/events.json');
     const items = ev.map(e =>
       `<li><strong>${escHtml(e.date)}</strong> — ${escHtml(e.title)} <span class="muted">${escHtml(e.location||'')}</span></li>`
     ).join('');
@@ -369,7 +375,7 @@ window.PNHS = (() => {
   async function loadSearchIndex(){
     if (Array.isArray(SEARCH_INDEX)) return SEARCH_INDEX;
     try{
-      const idx = await pull('data/search-index.json');
+      const idx = await pull('/data/search-index.json');
       SEARCH_INDEX = Array.isArray(idx) ? idx : [];
     }catch(_e){
       SEARCH_INDEX = [];
@@ -411,22 +417,22 @@ window.PNHS = (() => {
 
     // 2) Posts + memos
     const [postsR, memosR] = await Promise.allSettled([
-      pull('posts/posts.json'),
-      pull('data/memos.json')
+      pull('/posts/posts.json'),
+      pull('/data/memos.json')
     ]);
 
     const postHits = postsR.status==='fulfilled' && Array.isArray(postsR.value)
       ? postsR.value
           .filter(p => (String(p.title||'') + ' ' + String(p.body||'')).toLowerCase().includes(query))
           .slice(0, 8)
-          .map(p => ({ kind:'Article', title:p.title, url:`article.html?id=${encodeURIComponent(p.id)}` }))
+          .map(p => ({ kind:'Article', title:p.title, url:`/article/?id=${encodeURIComponent(p.id)}` }))
       : [];
 
     const memoHits = memosR.status==='fulfilled' && Array.isArray(memosR.value)
       ? memosR.value
           .filter(m => (String(m.title||'') + ' ' + String(m.summary||'')).toLowerCase().includes(query))
           .slice(0, 8)
-          .map(m => ({ kind:'Memo', title:m.title, url:m.file||'schoolmemo.html' }))
+          .map(m => ({ kind:'Memo', title:m.title, url:m.file || '/schoolmemo/' }))
       : [];
 
     const combined = [...pageHits, ...postHits, ...memoHits];
