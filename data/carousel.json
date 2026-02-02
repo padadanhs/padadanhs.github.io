@@ -1,5 +1,17 @@
 [
-  { "src": "carousel/1.jpg", "alt": "PNHS campus aerial" },
-  { "src": "carousel/2.jpg", "alt": "Students during intramurals" },
-  { "src": "carousel/3.jpg", "alt": "Science lab activities" }
+  {
+    "src": "carousel/1.jpg",
+    "alt": "PNHS campus aerial",
+    "caption": "Campus & Facilities"
+  },
+  {
+    "src": "carousel/2.jpg",
+    "alt": "Students during intramurals",
+    "caption": "Student Activities"
+  },
+  {
+    "src": "carousel/3.jpg",
+    "alt": "Science lab activities",
+    "caption": "Learning Spaces"
+  }
 ]

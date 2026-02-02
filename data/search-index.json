@@ -1,0 +1,181 @@
+[
+  {
+    "title": "Home (Padada National High School)",
+    "url": "index.html",
+    "keywords": [
+      "home",
+      "pnhs",
+      "padada",
+      "announcements",
+      "events",
+      "admissions",
+      "enrollment",
+      "strands",
+      "gallery",
+      "school paper"
+    ],
+    "excerpt": "Homepage with highlights carousel, quick links, latest posts, and upcoming events."
+  },
+  {
+    "title": "About Us",
+    "url": "about-us.html",
+    "keywords": [
+      "about",
+      "mission",
+      "vision",
+      "core values",
+      "faculty",
+      "teachers",
+      "staff",
+      "contact"
+    ],
+    "excerpt": "Overview of PNHS, mission/vision, and key information about the school community."
+  },
+  {
+    "title": "History",
+    "url": "history.html",
+    "keywords": [
+      "history",
+      "origins",
+      "ccnts",
+      "deped",
+      "ra 9540",
+      "senior high school",
+      "sped",
+      "spa"
+    ],
+    "excerpt": "A brief history of Padada National High School and major milestones."
+  },
+  {
+    "title": "Organizational Chart",
+    "url": "org.html",
+    "keywords": [
+      "organizational chart",
+      "administration",
+      "principal",
+      "department heads",
+      "coordinators",
+      "teachers"
+    ],
+    "excerpt": "School administration structure and department heads."
+  },
+  {
+    "title": "Programs & Accomplishments",
+    "url": "prog.html",
+    "keywords": [
+      "programs",
+      "accomplishments",
+      "shs strands",
+      "stem",
+      "humss",
+      "abm",
+      "tvl",
+      "special programs",
+      "awards"
+    ],
+    "excerpt": "Senior High School strands, special programs, and recent accomplishments."
+  },
+  {
+    "title": "Learner Government (SSG)",
+    "url": "ssg.html",
+    "keywords": [
+      "ssg",
+      "learner government",
+      "student council",
+      "student leaders",
+      "programs",
+      "activities"
+    ],
+    "excerpt": "Supreme Secondary Learner Government information and initiatives."
+  },
+  {
+    "title": "School Paper (Blog)",
+    "url": "blog.html",
+    "keywords": [
+      "school paper",
+      "campus journalism",
+      "articles",
+      "news",
+      "features",
+      "editorial"
+    ],
+    "excerpt": "Read PNHS student journalism and school paper articles."
+  },
+  {
+    "title": "Announcements (Memos)",
+    "url": "schoolmemo.html",
+    "keywords": [
+      "announcements",
+      "memos",
+      "issuances",
+      "advisory",
+      "schedule",
+      "downloads"
+    ],
+    "excerpt": "Official memos and announcements for students, parents, and staff."
+  },
+  {
+    "title": "Gallery",
+    "url": "gallery.html",
+    "keywords": [
+      "gallery",
+      "photos",
+      "events",
+      "campus",
+      "students",
+      "activities"
+    ],
+    "excerpt": "Photo highlights of campus life and school events."
+  },
+  {
+    "title": "Reports & Calendar",
+    "url": "reports.html",
+    "keywords": [
+      "reports",
+      "downloads",
+      "calendar",
+      "admissions",
+      "enrollment guide",
+      "forms",
+      "documents"
+    ],
+    "excerpt": "Downloads, calendar items, and key school reports."
+  },
+  {
+    "title": "Enrollment Guide (Admissions)",
+    "url": "reports.html#admissions",
+    "keywords": [
+      "admissions",
+      "enrollment",
+      "requirements",
+      "how to enroll",
+      "schedule"
+    ],
+    "excerpt": "Enrollment guide and admissions information."
+  },
+  {
+    "title": "Contact Us",
+    "url": "location.html",
+    "keywords": [
+      "contact",
+      "location",
+      "map",
+      "address",
+      "email",
+      "padada"
+    ],
+    "excerpt": "School location, contact details, and map."
+  },
+  {
+    "title": "Transparency Board",
+    "url": "transparencyboard.html",
+    "keywords": [
+      "transparency",
+      "good governance",
+      "budget",
+      "procurement",
+      "reports"
+    ],
+    "excerpt": "Transparency and governance information and posted documents."
+  }
+]

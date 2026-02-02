@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Padada National High School</title>
-  <meta name="description" content="Schools Division Office - Davao del Sur" />
+  <title>Innovations · PNHS</title>
+  <meta name="description" content="A showcase of PNHS teacher-led innovations and web apps." />
   <link rel="icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="assets/theme.css" />
   <script defer src="assets/site.js"></script>
 </head>
-<body id="top">
+<body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -22,7 +22,6 @@
         </div>
       </a>
 
-      <!-- Mobile burger -->
       <button class="nav__toggle" aria-expanded="false" aria-controls="navmenu" aria-label="Toggle navigation">☰</button>
 
       <nav id="navmenu" class="nav__menu" aria-label="Primary">
@@ -78,101 +77,78 @@
     </div>
   </header>
 
-
-
-
-  <!-- Hero with carousel -->
-  <section class="hero">
+  <header class="subheader">
     <div class="wrap">
-      <h1>Padada National High School</h1>
-      <p class="section-sub">Schools Division Office – Davao del Sur</p>
-
-      <div class="search">
-        <input id="site-search" type="search" placeholder="Search site, posts, and issuances…" aria-label="Search site" />
-        <button class="btn btn--primary" onclick="PNHS.search()">Search</button>
-      </div>
-
-
-      <div class="hero-links" aria-label="Quick links">
-        <a class="chip" href="reports.html#admissions">Enrollment Guide</a>
-        <a class="chip" href="schoolmemo.html">Announcements</a>
-        <a class="chip" href="gallery.html">Gallery</a>
-        <a class="chip" href="blog.html">School Paper</a>
-      </div>
+      <h1>Innovations</h1>
+      <p class="section-sub">Teacher-led web apps and learning tools developed Padada National High School</p>
     </div>
-  </section>
+  </header>
 
   <main id="main" class="wrap">
-    <!-- Highlights carousel (replaces large logo) -->
-    <figure class="index-highlights">
-      <div id="carousel" class="slider slider--hero" aria-label="Featured images" aria-roledescription="carousel">
-        <div class="slider__track" id="slider-track">
-          <!-- slides will be injected from data/carousel.json -->
-        </div>
-        <button class="slider__btn slider__btn--prev" aria-label="Previous slide">‹</button>
-        <button class="slider__btn slider__btn--next" aria-label="Next slide">›</button>
-        <div class="slider__dots" id="slider-dots" aria-hidden="true"></div>
-      </div>
-    </figure>
-
-    <!-- Welcome copy (from your R Markdown) -->
     <section class="card">
-      <div class="prose">
-        <p>
-          It is our pleasure to welcome you all to the official website of Padada National High School formerly
-          Hagonoy National High School - Annex. Experience its easy navigation feature to keep you updated with
-          the school’s projects and accomplishments as well as the people behind the success of our school.
-        </p>
-
-        <p>
-          This site has been prepared and developed to inspire <strong>YOU</strong>, our parents, students, and stakeholders
-          to use it as a valuable source of the school’s news and information.
-        </p>
-
-        <p>
-          We hope that everyone will become familiar with our school as an institution as well as its policies and procedures
-          that are necessary for its smooth operational management following our DepEd Mission and Vision Statements and its
-          Core Values as our students and clienteles say <strong>“KABATAANG PADADA: DISIPLINADO”</strong>.
-        </p>
-
-        <p>Godspeed and enjoy browsing our site!</p>
-
-        <p style="text-align:center;">
-          <span class="u-underline"><strong>MERCY FE M. MOPAL, Ed.D.</strong></span><br/>
-          Principal IV
-        </p>
-
-      </div>
+      <h2 style="margin-top:0">Did you know?</h2>
+      <p style="margin-bottom:0">
+        Did you know that teachers here are innovative? PNHS develops practical, student-friendly web apps that
+        support learning, research, and classroom instruction. Click a project below to explore the tool.
+      </p>
     </section>
 
-    <!-- Quick sections -->
-    <section>
+    <section class="card">
       <div class="section-head">
-        <h2>Explore PNHS</h2>
+        <h2 style="margin:0">Web App Showcase</h2>
+        <p class="muted" style="margin:0">Click a logo to open the project</p>
       </div>
-      <div class="grid grid--3">
-        <article class="card">
-          <h3>Programs &amp; Accomplishments</h3>
-          <p>SHS strands (GAS, TVL) &amp; SPA.</p>
-          <a class="btn btn--ghost" href="prog.html">View programs</a>
-        </article>
-        <article class="card">
-          <h3>Issuances</h3>
-          <p>School memos, reports, and transparency board.</p>
-          <a class="btn btn--ghost" href="schoolmemo.html">Open issuances</a>
-        </article>
-        <article class="card">
-          <h3>School Paper</h3>
-          <p>News, features, editorials, sports, and culture by PNHS campus journalists.</p>
-          <a class="btn btn--ghost" href="blog.html">Read articles</a>
-        </article>
+
+      <div class="grid grid--3" style="margin-top:14px">
+        <!-- 1) Hearing Functions -->
+        <a class="card" href="https://samjohnparr.github.io/Hearing-Functions/index.html" target="_blank" rel="noopener"
+           style="display:block;text-decoration:none;color:inherit">
+          <img src="images/innovation/hearing-functions.png"
+               alt="Hearing Functions logo"
+               style="width:100%;height:180px;object-fit:contain;background:rgba(255,255,255,.7);border-radius:12px;border:1px solid rgba(11,18,32,.10);padding:12px;margin-bottom:10px;">
+          <h3 style="margin:.2rem 0 .2rem">Hearing Functions</h3>
+          <p class="muted" style="margin:0">
+            A sonified-graphs learning tool that helps students “hear” function behavior.
+          </p>
+          <p class="proj-dev" style="margin-top:10px">
+            <span class="dev-label">Developed by</span>
+            <span class="dev-names">Samuel John E. Parreño and Alleander Kate L. Gicale</span>
+        </p>
+        </a>
+
+        <!-- 2) QualiMatch -->
+        <a class="card" href="https://samjohnparr.github.io/QualiMatch/index.html" target="_blank" rel="noopener"
+           style="display:block;text-decoration:none;color:inherit">
+          <img src="images/innovation/qualimatch.png"
+               alt="QualiMatch logo"
+               style="width:100%;height:180px;object-fit:contain;background:rgba(255,255,255,.7);border-radius:12px;border:1px solid rgba(11,18,32,.10);padding:12px;margin-bottom:10px;">
+          <h3 style="margin:.2rem 0 .2rem">QualiMatch</h3>
+          <p class="muted" style="margin:0">
+            A question-to-method matcher that guides students in aligning qualitative research questions, design, and data sources.
+          </p>
+          <p class="proj-dev" style="margin-top:10px">
+            <span class="dev-label">Developed by</span>
+            <span class="dev-names">Joe Faith C. Bernardino and Samuel John E. Parreño</span>
+        </p>
+        </a>
+        <a class="card" href="#" onclick="return false;"
+           style="display:block;text-decoration:none;color:inherit;opacity:.85">
+          <img src="images/innovation/coming-soon.png"
+               alt="Project logo placeholder"
+               style="width:100%;height:180px;object-fit:contain;background:rgba(255,255,255,.7);border-radius:12px;border:1px solid rgba(11,18,32,.10);padding:12px;margin-bottom:10px;">
+          <h3 style="margin:.2rem 0 .2rem">Coming Soon</h3>
+          <p class="muted" style="margin:0">
+            Still on the drawing board.
+          </p>
+        </a>
+
+        
       </div>
     </section>
 
     <p class="backtotop"><a href="#top">Back to top</a></p>
   </main>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <div>
