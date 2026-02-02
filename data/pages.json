@@ -1,52 +1,116 @@
 [
   {
-    "url": "index.html",
+    "url": "/",
     "title": "Padada National High School",
-    "headings": ["Latest from PNHS", "Upcoming Events", "Admissions", "SHS Strands & Special Programs", "Announcements"]
+    "headings": [
+      "Explore PNHS",
+      "Programs & Accomplishments",
+      "Issuances",
+      "School Paper"
+    ]
   },
   {
-    "url": "history.html",
+    "url": "/history/",
     "title": "History",
-    "headings": ["Origins", "CCNTS Era", "Transition to DepEd", "Present Site", "Independence under RA 9540", "Extension Classes", "Programs (SPED, SPA)", "Senior High School Tracks"]
+    "headings": [
+      "Origins",
+      "CCNTS Era",
+      "Transition to DepEd",
+      "Present Site",
+      "Independence under RA 9540",
+      "Extension Classes",
+      "Programs (SPED, SPA)",
+      "Senior High School Tracks"
+    ]
   },
   {
-    "url": "org.html",
+    "url": "/org/",
     "title": "Organizational Chart",
-    "headings": ["School Administration", "Structure", "Department Heads"]
+    "headings": [
+      "School Administration",
+      "Structure",
+      "Department Heads"
+    ]
   },
   {
-    "url": "prog.html",
+    "url": "/prog/",
     "title": "Programs & Accomplishments",
-    "headings": ["Senior High School Strands", "Special Programs", "Accomplishments"]
+    "headings": [
+      "Senior High School Strands",
+      "Special Program",
+      "Accomplishments"
+    ]
   },
   {
-    "url": "ssg.html",
-    "title": "Supreme Student Government",
-    "headings": ["Duties and Responsibilities", "Officers (S.Y. 2021–2022)", "National Gardening Day (2020)"]
+    "url": "/ssg/",
+    "title": "Learner Government",
+    "headings": [
+      "Learner Government",
+      "Officers (S.Y. 2021–2022)",
+      "National Gardening Day (2020)"
+    ]
   },
   {
-    "url": "schoolmemo.html",
+    "url": "/blog/",
+    "title": "School Paper",
+    "headings": [
+      "School Paper",
+      "News",
+      "Features",
+      "Editorial",
+      "Sports",
+      "Science & Tech",
+      "Culture"
+    ]
+  },
+  {
+    "url": "/schoolmemo/",
     "title": "School Memos",
-    "headings": ["Official Memoranda", "Announcements"]
+    "headings": [
+      "School Memos",
+      "Official memoranda and announcements"
+    ]
   },
   {
-    "url": "reports.html",
+    "url": "/reports/",
     "title": "Reports & Calendar",
-    "headings": ["Downloads", "School Calendar"]
+    "headings": [
+      "Downloads",
+      "School Calendar"
+    ]
   },
   {
-    "url": "transparencyboard.html",
+    "url": "/transparencyboard/",
     "title": "Transparency Board",
-    "headings": ["Annual Procurement Plan", "Financial Statements"]
+    "headings": [
+      "Annual Procurement Plan (APP)",
+      "Financial Statements",
+      "Bids & Awards",
+      "Other Compliance"
+    ]
   },
   {
-    "url": "gallery.html",
+    "url": "/gallery/",
     "title": "Gallery",
-    "headings": ["Campus Life", "Events"]
+    "headings": [
+      "Campus Life",
+      "Events"
+    ]
   },
   {
-    "url": "location.html",
-    "title": "Contact Information",
-    "headings": ["Address", "Map"]
+    "url": "/innovation/",
+    "title": "Innovations",
+    "headings": [
+      "Innovations"
+    ]
+  },
+  {
+    "url": "/location/",
+    "title": "Contact Us",
+    "headings": [
+      "Contact Us",
+      "Address",
+      "Map"
+    ]
   }
 ]

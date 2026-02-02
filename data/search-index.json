@@ -1,7 +1,7 @@
 [
   {
     "title": "Home (Padada National High School)",
-    "url": "index.html",
+    "url": "/",
     "keywords": [
       "home",
       "pnhs",
@@ -14,26 +14,11 @@
       "gallery",
       "school paper"
     ],
-    "excerpt": "Homepage with highlights carousel, quick links, latest posts, and upcoming events."
-  },
-  {
-    "title": "About Us",
-    "url": "about-us.html",
-    "keywords": [
-      "about",
-      "mission",
-      "vision",
-      "core values",
-      "faculty",
-      "teachers",
-      "staff",
-      "contact"
-    ],
-    "excerpt": "Overview of PNHS, mission/vision, and key information about the school community."
+    "excerpt": "Homepage with highlights carousel, quick links, and key sections for exploring PNHS."
   },
   {
     "title": "History",
-    "url": "history.html",
+    "url": "/history/",
     "keywords": [
       "history",
       "origins",
@@ -48,7 +33,7 @@
   },
   {
     "title": "Organizational Chart",
-    "url": "org.html",
+    "url": "/org/",
     "keywords": [
       "organizational chart",
       "administration",
@@ -61,49 +46,51 @@
   },
   {
     "title": "Programs & Accomplishments",
-    "url": "prog.html",
+    "url": "/prog/",
     "keywords": [
       "programs",
       "accomplishments",
       "shs strands",
-      "stem",
-      "humss",
-      "abm",
+      "gas",
       "tvl",
       "special programs",
+      "spa",
       "awards"
     ],
-    "excerpt": "Senior High School strands, special programs, and recent accomplishments."
+    "excerpt": "Senior High School strands, special programs, and accomplishments."
   },
   {
-    "title": "Learner Government (SSG)",
-    "url": "ssg.html",
+    "title": "Learner Government",
+    "url": "/ssg/",
     "keywords": [
       "ssg",
       "learner government",
       "student council",
       "student leaders",
-      "programs",
+      "officers",
       "activities"
     ],
-    "excerpt": "Supreme Secondary Learner Government information and initiatives."
+    "excerpt": "Learner Government (SSG) information and initiatives."
   },
   {
-    "title": "School Paper (Blog)",
-    "url": "blog.html",
+    "title": "School Paper",
+    "url": "/blog/",
     "keywords": [
       "school paper",
       "campus journalism",
       "articles",
       "news",
       "features",
-      "editorial"
+      "editorial",
+      "sports",
+      "science",
+      "culture"
     ],
-    "excerpt": "Read PNHS student journalism and school paper articles."
+    "excerpt": "Read PNHS campus journalism and school paper articles."
   },
   {
-    "title": "Announcements (Memos)",
-    "url": "schoolmemo.html",
+    "title": "School Memos",
+    "url": "/schoolmemo/",
     "keywords": [
       "announcements",
       "memos",
@@ -112,11 +99,36 @@
       "schedule",
       "downloads"
     ],
-    "excerpt": "Official memos and announcements for students, parents, and staff."
+    "excerpt": "Official memoranda and announcements for students, parents, and staff."
+  },
+  {
+    "title": "Reports & Calendar",
+    "url": "/reports/",
+    "keywords": [
+      "reports",
+      "downloads",
+      "calendar",
+      "forms",
+      "documents",
+      "school calendar"
+    ],
+    "excerpt": "Downloads, calendar items, and key school reports."
+  },
+  {
+    "title": "Enrollment Guide (Admissions)",
+    "url": "/reports/#admissions",
+    "keywords": [
+      "admissions",
+      "enrollment",
+      "requirements",
+      "how to enroll",
+      "schedule"
+    ],
+    "excerpt": "Enrollment guide and admissions information."
   },
   {
     "title": "Gallery",
-    "url": "gallery.html",
+    "url": "/gallery/",
     "keywords": [
       "gallery",
       "photos",
@@ -128,34 +140,20 @@
     "excerpt": "Photo highlights of campus life and school events."
   },
   {
-    "title": "Reports & Calendar",
-    "url": "reports.html",
+    "title": "Innovations",
+    "url": "/innovation/",
     "keywords": [
-      "reports",
-      "downloads",
-      "calendar",
-      "admissions",
-      "enrollment guide",
-      "forms",
-      "documents"
+      "innovation",
+      "ict",
+      "projects",
+      "web apps",
+      "learning tools"
     ],
-    "excerpt": "Downloads, calendar items, and key school reports."
-  },
-  {
-    "title": "Enrollment Guide (Admissions)",
-    "url": "reports.html#admissions",
-    "keywords": [
-      "admissions",
-      "enrollment",
-      "requirements",
-      "how to enroll",
-      "schedule"
-    ],
-    "excerpt": "Enrollment guide and admissions information."
+    "excerpt": "School innovations and ICT-based initiatives."
   },
   {
     "title": "Contact Us",
-    "url": "location.html",
+    "url": "/location/",
     "keywords": [
       "contact",
       "location",
@@ -168,13 +166,15 @@
   },
   {
     "title": "Transparency Board",
-    "url": "transparencyboard.html",
+    "url": "/transparencyboard/",
     "keywords": [
       "transparency",
       "good governance",
       "budget",
       "procurement",
-      "reports"
+      "bac",
+      "financial statements",
+      "app"
     ],
     "excerpt": "Transparency and governance information and posted documents."
   }
